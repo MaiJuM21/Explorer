@@ -1,0 +1,148 @@
+/* Define styles for the 'title_label' widget */
+#title_label {
+	font-size: 16px;
+	font-family: Amazone BT;
+}
+
+/* Define styles for the 'title_icon' widget */
+#title_icon {
+	max-width: 35px;
+	max-height: 35px;
+}
+
+/* Define styles for the 'menu_btn' widget */
+#menu_btn {
+	border: none;
+}
+
+/* Define styles for the 'QStackedWidget' */
+QStackedWidget {
+	background-color: #fff;
+}
+
+/* Define styles for 'QListWidget' and '#title_frame' */
+QListWidget,
+#title_frame {
+	background-color: #f0f0f0;
+}
+
+/* Define border styles for '#stackedWidget' and '#title_frame' */
+#stackedWidget,
+#title_frame {
+	border: 1px solid #828790;
+}
+
+/* Additional border style for '#stackedWidget' */
+#stackedWidget {
+	border-left: none;
+}
+
+/* Additional border style for '#title_frame' */
+#title_frame {
+	border-bottom: none;
+}
+
+/* Define font styles for '#listWidget' */
+#listWidget {
+	font-size: 13px;
+	font-family: Segoe UI Semibold;
+}
+
+/* Styles for list items in '#listWidget' */
+#listWidget::item {
+	/* Ensure borders are set for proper styling */
+	border: 0px;
+	padding: 5px 10px;
+	margin: 2px 0;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* Styles for list items in '#listWidget_icon_only' */
+#listWidget_icon_only::item {
+	/* Ensure borders are set for proper styling */
+	border: 0px;
+	padding: 5px 10px;
+	margin: 2px 0;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	padding-top: 0px;
+}
+
+/* Hover effect for list items */
+#listWidget::item:hover,
+#listWidget_icon_only::item:hover {
+	background-color: #dadada;
+}
+
+/* Selected item styles for list items */
+
+#listWidget_icon_only::item:selected {
+	background-color: #ffd86b;
+}
+
+/* Define icon dimensions for '#listWidget' items */
+#listWidget::icon {
+	width: 16px;
+	height: 16px;
+}
+
+/* Define icon dimensions for '#listWidget_icon_only' items */
+#listWidget_icon_only::icon {
+	width: 23px;
+	height: 23px;
+}
+
+/* Define styles for the 'ftop' widget */
+#ftop {
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+/* Define styles for the 'fftop' widget */
+#fftop {
+	background-color: white;
+	border-bottom-radius: 20px;
+}
+
+/* Define styles for the 'exit' button */
+#exit {
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+}
+
+/* Define styles for the 'show' button */
+#show {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Define styles for the 'full' button */
+#full {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Define styles for the 'flabel' widget */
+#flabel {
+	background-color: white;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+
+/* Define styles for the 'minus' button */
+#minus {
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+}
+
+/* Define styles for the 'listWidget_icon_only' */
+#listWidget_icon_only {
+	background: white;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+/* Define additional styles for the 'side_menu_icon_only' */
+#side_menu_icon_only {
+	focus-policy: no-focus;
+}
